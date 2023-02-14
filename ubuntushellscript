@@ -5,10 +5,10 @@ apt-add-repository --yes --update ppa:ansible/ansible
 apt update
 apt install ansible -y
 apt install nginx -y
-apt install python-apt -y
+apt install python-apt-doc python3-apt-dbg python3-apt python-apt-common -y
 apt install git -y
 apt install stress -y
-git clone https://github.com/mallikarjun432/ansibletemplatetesting.git /myrepo
+git clone https://github.com/AadhyaDevOpstraining/ansibletemplatetesting.git /myrepo
 ######USE aws-autoscaling branch for testing aws autoscaling##########################
 ######GIVE ONLY ABOVE IN THE USER DATA FOR AMI IMAGE FOR AWS AUTOSCALING##########
 #
